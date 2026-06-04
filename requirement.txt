@@ -1,0 +1,16 @@
+xarray
+matplotlib
+geopandas
+netcdf4
+h5netcdf
+dask
+rioxarray
+scikit-learn
+xgboost
+lightgbm
+catboost
+ngboost
+seaborn
+# cuml
+shap
+cartopy

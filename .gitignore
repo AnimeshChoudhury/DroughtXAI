@@ -1,0 +1,19 @@
+
+
+# Virtual environment
+venv/
+.venv/
+
+# CatBoost ML logs
+catboost_info/
+**/catboost_info/
+
+# Raw data storage
+
+Data/
+
+# Heavy model outputs and pickles (including all subfolders)
+
+Results/**/*.pkl
+
+Results/**/*.cbm
