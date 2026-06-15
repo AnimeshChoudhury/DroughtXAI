@@ -2,4 +2,4 @@ Model,Accuracy,F1 Macro,Kappa,MCC,Balanced Accuracy
 Persistence Baseline,0.5982,0.238,0.0759,0.0759,0.238
 Climatology Baseline,0.7374,0.179,0.0042,0.0265,0.2044
 LightGBM (Tuned),0.7366,0.4773,0.4652,0.4746,0.5035
-Ensemble (RF+LGB+XGB),0.727,0.4611,0.4442,0.4527,0.4871
+Ensemble (RF+LGB+XGB),0.7274,0.4618,0.445,0.4536,0.4878

@@ -2,4 +2,4 @@ Model,Accuracy,F1 Macro,Kappa,MCC,Balanced Accuracy
 Random Forest (Tuned),0.6974,0.4262,0.394,0.4034,0.4566
 LightGBM (Tuned),0.7351,0.4757,0.4624,0.4721,0.5029
 XGBoost (Tuned),0.6693,0.3776,0.3392,0.3478,0.409
-Ensemble (RF+LGB+XGB),0.7252,0.4594,0.4412,0.45,0.4867
+Ensemble (RF+LGB+XGB),0.7256,0.4601,0.442,0.4509,0.4874

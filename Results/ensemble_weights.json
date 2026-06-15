@@ -1,5 +1,5 @@
 {
-    "RF": 0.341,
-    "LightGBM": 0.3762,
-    "XGBoost": 0.2827
+    "RF": 0.3298,
+    "LightGBM": 0.3859,
+    "XGBoost": 0.2843
 }
