@@ -27,17 +27,7 @@ SPEI-1 values are classified into 5 categories:
 | 3 | -2.0 to -1.5 | Severe drought |
 | 4 | ≤ -2.0 | Extreme drought |
 
-## Data Structure
 
-### Input Data
-- **ERA5 Monthly Data**: Located in `Data/ERA5_monthly/`
-  - SPEI: NetCDF files in `Data/ERA5_monthly/SPEI/*.nc`
-  - Auxiliary variables (t2m, tp, e, ro, cdir): NetCDF files in `Data/ERA5_monthly/AuxData/`
-- **India Shapefile**: `Data/Ind_shapefile/`
-
-### Output Data
-- `Data/Ind_SPEI1_ERA5_monthly_5class.nc`: Processed NetCDF with classified SPEI
-- `Results/`: Model predictions, metrics, and visualization outputs
 
 ## Features
 
@@ -49,11 +39,11 @@ The following predictor variables are used for modeling:
 - `cdir`: Convective drainage
 
 ### Temporal Encoding
-- `month_sin`, `month_cos`: Cyclic encoding of month
+- `month_sin`: Cyclic encoding of month
 
 ### Spatial Encoding
-- `sin_lat`, `cos_lat`: Cyclic encoding of latitude
-- `sin_lon`, `cos_lon`: Cyclic encoding of longitude
+- `sin_lat`: Cyclic encoding of latitude
+- `sin_lon`: Cyclic encoding of longitude
 
 ## Models Evaluated
 
